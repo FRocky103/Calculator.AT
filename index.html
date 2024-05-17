@@ -13,6 +13,11 @@
 			var num2=document.getElementById('snumber').value*1.0;
 			document.getElementById('result').innerHTML=(num1+num2)/2;
 			}
+			function minus()
+			{var num1=document.getElementById('fnumber').value*1.0;
+			var num2=document.getElementById('snumber').value*1.0;
+			document.getElementById('result').innerHTML=(num1-num2);
+			}
 		</script>
 	</head>
 	<body>
@@ -29,6 +34,9 @@
 			</buttton>
 			<button onclick="average()">
 			average
+			</button>
+			<button onclick="minus()">
+			minus
 			</button>
 			<p id="result">
 			</p>
